@@ -46,7 +46,7 @@ def menu():
     print("4. Удалить задачу из списка")
     print("5. Выход")
 
-    return int(input("Выберите действие: "))
+    return input("Выберите действие: ")
 
 
 def main():
